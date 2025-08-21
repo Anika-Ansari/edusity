@@ -35,4 +35,11 @@ justify-content: center;
 .btn img{
   width: 20px;
   margin-left: 10px;
+<<<<<<< HEAD
+=======
+}
+.btn.dark-btn{
+  background: #212EA0;
+  color: #FFF;
+>>>>>>> c0116ce (code added)
 }
