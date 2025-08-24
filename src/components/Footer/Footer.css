@@ -1,13 +1,26 @@
-.footer{
+.footer {
     margin: 10px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid #797979;
-    padding: 15px 0; 
+    padding: 15px 0;
 }
-.footer ul li{
+
+.footer ul li {
     display: inline-block;
     margin-left: 10px;
     list-style: none;
+}
+
+/* ------------Media Query------- */
+@media(max-width:600px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    .footer ul li {
+        margin-top: 10px;
+    }
 }
