@@ -108,17 +108,13 @@
     }
 }
 
-/* @media (max-width:480px) {
-    .slider {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-} */
-
-@media(max-width:320px) {
-    .slide{
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-    }
+@media(max-width :480px) {
+    .slider ul {
+    display: flex;
+    width: 400%;
+    overflow-x: hidden;
+    transition: 0.5s;
 }
+}
+
+

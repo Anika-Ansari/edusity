@@ -31,7 +31,7 @@ const [playState , setPlayState] = useState(false);
         <Contact />
         <Footer/>
       </div>
-      <VideoPlayer playState={playState}/>
+      <VideoPlayer playState={playState} setPlayState={setPlayState}/>
     </div>
   )
 }
